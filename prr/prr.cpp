@@ -76,12 +76,12 @@ int main()
 			Devider();
 			Afis();
 			Devider();
-			cout << SEMN << " ALEGE\n";
+			cout << SEMN << " ALEGE:\n";
 			cin >> x >> y;
 
 			while (tabla[x][y] != '-')
 			{
-				cout << "NU ESTE O POZITIE VALIDA\n";
+				cout << "NU ESTE O POZITIE VALIDA!\n";
 				cin >> x >> y;
 			}
 			tabla[x][y] = SEMN;
@@ -91,7 +91,7 @@ int main()
 				Devider();
 				Afis();
 				Devider();
-				cout << SEMN << " A CASTIGAT\n";
+				cout << SEMN << " A CASTIGAT!\n";
 				Devider();
 				return 0;
 			}
@@ -101,7 +101,7 @@ int main()
 				SEMN = 'X';
 		}
 		Devider();
-		cout << "EGALITATE";
+		cout << "EGALITATE!";
 		Devider();
 		cin >> orice;
 		return 0;
